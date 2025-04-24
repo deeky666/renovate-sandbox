@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "private": true,
+  "scripts": {
+    "eas-build-pre-install": "corepack enable"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@4.5.0"
+}

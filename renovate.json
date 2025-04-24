@@ -1,0 +1,36 @@
+{
+    "extends": ["config:base"],
+    "packageRules": [
+      {
+        "matchManagers": ["dockerfile", "docker-compose"],
+        "enabled": false
+      },
+      {
+        "matchUpdateTypes": ["minor"],
+        "enabled": false
+      },
+      {
+        "matchUpdateTypes": ["major"],
+        "enabled": false
+      },
+      {
+        "matchUpdateTypes": ["patch"],
+        "labels": ["patch"],
+        "automerge": true
+      }
+    ],
+    "separateMinorPatch": true,
+    "labels": ["dependencies"],
+    "constraints": {
+      "composer": "2.7.7"
+    },
+    "dependencyDashboard": false,
+    "rangeStrategy": "in-range-only",
+    "baseBranches": ["hausmeisterei"],
+    "vulnerabilityAlerts": {
+      "labels": ["security"],
+      "assignees": ["@jan.ruhfus", "@steve.falk"],
+      "automerge": true
+    },
+    "branchPrefix": "renovate-"
+}

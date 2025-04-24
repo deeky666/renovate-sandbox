@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="StrawberryShake.Server" Version="15.0.3" />
+      <PackageReference Include="StrawberryShake.Transport.Http" Version="15.0.3" />
+      <PackageReference Include="StrawberryShake.Transport.InMemory" Version="15.0.3" />
+      <PackageReference Include="StrawberryShake.Transport.WebSockets" Version="15.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <GenerateGraphQLCodeItems Remove="Mutations\MandantUnternehmen.graphql" />
+      <GenerateGraphQLCodeItems Remove="Mutations\Verordnung.graphql" />
+    </ItemGroup>
+
+</Project>
