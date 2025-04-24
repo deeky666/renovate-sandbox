@@ -7,7 +7,7 @@
       },
       {
         "matchUpdateTypes": ["minor"],
-        "enabled": false
+          "labels": ["minor"]
       },
       {
         "matchUpdateTypes": ["major"],
