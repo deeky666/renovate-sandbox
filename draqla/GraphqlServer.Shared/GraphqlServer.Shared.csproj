@@ -8,15 +8,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="HotChocolate.Fusion" Version="15.0.3"/>
-        <PackageReference Include="HotChocolate.Execution" Version="15.0.3" />
-        <PackageReference Include="HotChocolate.AspNetCore" Version="15.0.3"/>
-        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0"/>
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.1"/>
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1"/>
-        <PackageReference Include="prometheus-net" Version="8.2.1" />
-        <PackageReference Include="prometheus-net.AspNetCore" Version="8.2.1" />
+        <PackageReference Include="HotChocolate.Fusion" Version="[15.0.3]"/>
+        <PackageReference Include="HotChocolate.Execution" Version="[15.0.3]" />
+        <PackageReference Include="HotChocolate.AspNetCore" Version="[15.0.3]"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="[2.3.0]"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="[9.0.1]"/>
+        <PackageReference Include="Newtonsoft.Json" Version="[13.0.3]"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="[8.0.1]"/>
+        <PackageReference Include="prometheus-net" Version="[8.2.1]" />
+        <PackageReference Include="prometheus-net.AspNetCore" Version="[8.2.1]" />
     </ItemGroup>
 
 </Project>
