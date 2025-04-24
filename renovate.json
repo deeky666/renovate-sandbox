@@ -1,5 +1,5 @@
 {
-    "extends": ["config:base"],
+    "extends": ["config:base", ":dependencyDashboard"],
     "packageRules": [
       {
         "matchManagers": ["dockerfile", "docker-compose"],
@@ -24,7 +24,6 @@
     "constraints": {
       "composer": "2.7.7"
     },
-    "dependencyDashboard": false,
     "rangeStrategy": "in-range-only",
     "baseBranches": ["hausmeisterei"],
     "vulnerabilityAlerts": {
