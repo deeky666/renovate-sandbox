@@ -9,10 +9,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="StrawberryShake.Server" Version="15.0.3" />
-      <PackageReference Include="StrawberryShake.Transport.Http" Version="15.0.3" />
-      <PackageReference Include="StrawberryShake.Transport.InMemory" Version="15.0.3" />
-      <PackageReference Include="StrawberryShake.Transport.WebSockets" Version="15.0.3" />
+      <PackageReference Include="StrawberryShake.Server" Version="[15.0.3]" />
+      <PackageReference Include="StrawberryShake.Transport.Http" Version="[15.0.3]" />
+      <PackageReference Include="StrawberryShake.Transport.InMemory" Version="[15.0.3]" />
+      <PackageReference Include="StrawberryShake.Transport.WebSockets" Version="[15.0.3]" />
     </ItemGroup>
 
     <ItemGroup>
