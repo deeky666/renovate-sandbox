@@ -65,7 +65,7 @@
     "zone.js": "0.15.0"
   },
   "devDependencies": {
-    "@analogjs/vite-plugin-angular": "1.8.1",
+    "@analogjs/vite-plugin-angular": "1.8.2",
     "@angular-builders/custom-esbuild": "18.0.0",
     "@angular/build": "18.2.19",
     "@angular/cli": "18.2.19",
