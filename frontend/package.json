@@ -72,7 +72,7 @@
     "@angular/compiler-cli": "18.2.3",
     "@angular/language-service": "18.2.3",
     "@babel/core": "7.25.2",
-    "@compodoc/compodoc": "1.1.25",
+    "@compodoc/compodoc": "1.1.26",
     "@eslint/compat": "1.1.1",
     "@graphql-codegen/cli": "5.0.2",
     "@graphql-codegen/fragment-matcher": "5.0.2",
