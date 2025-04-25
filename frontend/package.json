@@ -17,7 +17,7 @@
     "@angular/material": "18.2.3",
     "@angular/platform-browser": "18.2.3",
     "@angular/platform-browser-dynamic": "18.2.3",
-    "@angular/pwa": "18.2.4",
+    "@angular/pwa": "18.2.19",
     "@angular/router": "18.2.3",
     "@angular/service-worker": "18.2.3",
     "@apollo/client": "3.13.8",

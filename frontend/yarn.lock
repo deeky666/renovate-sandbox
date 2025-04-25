@@ -226,18 +226,6 @@
     rxjs "7.8.1"
     source-map "0.7.4"
 
-"@angular-devkit/core@18.2.4":
-  version "18.2.4"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-18.2.4.tgz#24596ead7d7fbfbe6f4e10a1bb848c0db41558e4"
-  integrity sha512-svlgZ0vbLrfNJAQE5WePAutcYIyA7C0OfzKSTMsfV2X1I+1blYDaZIu/ocnHqofMHu6ZqdSaaU/p/rieqU8fcA==
-  dependencies:
-    ajv "8.17.1"
-    ajv-formats "3.0.1"
-    jsonc-parser "3.3.1"
-    picomatch "4.0.2"
-    rxjs "7.8.1"
-    source-map "0.7.4"
-
 "@angular-devkit/schematics@18.0.1":
   version "18.0.1"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-18.0.1.tgz#29f684c717fc94174f0ca318a43e2cb003fc4a29"
@@ -255,17 +243,6 @@
   integrity sha512-P/0KjkzOf2ZShuShx3cBbjLI7XlcS6B/yCRBo1MQfCC4cZfmzPQoUEOSQeYZgy5pnC24f+dKh/+TWc5uYL/Lvg==
   dependencies:
     "@angular-devkit/core" "18.2.19"
-    jsonc-parser "3.3.1"
-    magic-string "0.30.11"
-    ora "5.4.1"
-    rxjs "7.8.1"
-
-"@angular-devkit/schematics@18.2.4":
-  version "18.2.4"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-18.2.4.tgz#65945d013df0c9c90c413e61cde59d2ff7829318"
-  integrity sha512-s2WdUhyLlKj5kOjb6vrvJg9/31KvgyRJGjy7PnzS43tpwF9MLuM3AYhuJsXHPhx+i0nyWn/Jnd8ZLjMzXljSxg==
-  dependencies:
-    "@angular-devkit/core" "18.2.4"
     jsonc-parser "3.3.1"
     magic-string "0.30.11"
     ora "5.4.1"
@@ -494,13 +471,13 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/pwa@18.2.4":
-  version "18.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-18.2.4.tgz#59c535ce82a4fdd2ba5d73b15a1b6bff39e7547a"
-  integrity sha512-kgiRMIPlC3Fsi0bCNcDQh6qr9oYAIBnHUKZMsdxhazOEog62QfZrnMOj4XCHX2bXLlSglmhceTMVVVHQ1U+lrg==
+"@angular/pwa@18.2.19":
+  version "18.2.19"
+  resolved "https://registry.yarnpkg.com/@angular/pwa/-/pwa-18.2.19.tgz#e32e44f014d80127923d219902e2fb5dda43afc8"
+  integrity sha512-RixkTrRMMbQhcAbrP0RfUCGqC+cTHseRa4xLli0RXXB0I0c3ZUOcfaHGwMM7yEmCTL+935lhEgeNutF0oBjlnw==
   dependencies:
-    "@angular-devkit/schematics" "18.2.4"
-    "@schematics/angular" "18.2.4"
+    "@angular-devkit/schematics" "18.2.19"
+    "@schematics/angular" "18.2.19"
     parse5-html-rewriting-stream "7.0.0"
 
 "@angular/router@18.2.3":
@@ -4493,15 +4470,6 @@
   dependencies:
     "@angular-devkit/core" "18.2.19"
     "@angular-devkit/schematics" "18.2.19"
-    jsonc-parser "3.3.1"
-
-"@schematics/angular@18.2.4":
-  version "18.2.4"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-18.2.4.tgz#3208ff49608fd4ef6a2405c94b68436902573681"
-  integrity sha512-GxrPv4eOPrjMKoAVhch9eprW8H/DFhBy5Zgp7CgGui9NprYkkubxw/yyo11WfR5CFZ/q5AfsjV76dPCkhLwLmA==
-  dependencies:
-    "@angular-devkit/core" "18.2.4"
-    "@angular-devkit/schematics" "18.2.4"
     jsonc-parser "3.3.1"
 
 "@sentry-internal/feedback@7.114.0":
