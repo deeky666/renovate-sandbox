@@ -90,15 +90,15 @@
       },
       "AWSSDK.Core": {
         "type": "Transitive",
-        "resolved": "3.7.301.2",
-        "contentHash": "LJPCSz+1st21CzMZ+VGBjJlWScvhD3Y/n0IoJU5zRcBWCliVAaeNyQ8J7YIGVj8Mimr0cZJyL61q6Xg96PXLsA=="
+        "resolved": "3.7.402.47",
+        "contentHash": "hOUUidv5tmxRb6S4Vgt/Vr17Gix+g1VOIRU14AkzxRixBPHyIXxfKlVQ3jRyItO+4yB24RdTkRor8VkteMlyuA=="
       },
       "AWSSDK.S3": {
         "type": "Transitive",
-        "resolved": "3.7.305.7",
-        "contentHash": "OSno9lfyeSj9tHdkDXdyT3orHM8DRRvcubKAr/rCb5wdiuypLzco6aV9+V9UhOjxj8muT1BApR20hX8HTHfU3Q==",
+        "resolved": "3.7.416.17",
+        "contentHash": "a7w7msLgqH6OlWumY3wyGjcBizs9EL583UrDB8KkZ0EA2AHVT87HSPDpFeFhqHUWO19rCtZLZC8eDr1d548ygA==",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.301.2, 4.0.0)"
+          "AWSSDK.Core": "[3.7.402.47, 4.0.0)"
         }
       },
       "Azure.Core": {
@@ -2482,8 +2482,8 @@
       "graphqlserver": {
         "type": "Project",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.301.2, 3.7.301.2]",
-          "AWSSDK.S3": "[3.7.305.7, 3.7.305.7]",
+          "AWSSDK.Core": "[3.7.402.47, 3.7.402.47]",
+          "AWSSDK.S3": "[3.7.416.17, 3.7.416.17]",
           "GraphHealthChecks": "[4.0.1, 4.0.1]",
           "GraphqlClient": "[1.0.0, )",
           "GraphqlServer.Shared": "[1.0.0, )",
