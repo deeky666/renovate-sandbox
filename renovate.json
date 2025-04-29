@@ -15,7 +15,7 @@
         },
         {
             "matchPackageNames": ["eslint"],
-            "matchPaths": ["frontend/package.json"],
+            "matchFileNames": ["frontend/package.json"],
             "matchUpdateTypes": ["patch"],
             "labels": ["patch"],
             "automerge": false
