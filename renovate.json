@@ -20,13 +20,6 @@
         {
             "matchFileNames": ["frontend/package.json"],
             "matchPackageNames": ["eslint"],
-            "rangeStrategy": "pin",
-            "labels": ["patch"],
-            "automerge": false
-        },
-        {
-            "matchFileNames": ["frontend/package.json"],
-            "matchPackageNames": ["eslint"],
             "matchUpdateTypes": ["patch"],
             "labels": ["patch"],
             "automerge": false,
@@ -38,7 +31,7 @@
     "constraints": {
         "composer": "2.7.7"
     },
-    "ignoreDeps": ["*"],
+    "rangeStrategy": "pin",
     "dependencyDashboard": true,
-    "baseBranches": ["test-4"]
+    "baseBranches": ["test-5"]
 }
