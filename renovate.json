@@ -1,37 +1,63 @@
 {
-    "extends": ["config:base"],
+    "extends": [
+        "config:recommended"
+    ],
     "packageRules": [
         {
-            "matchManagers": ["dockerfile", "docker-compose"],
+            "matchManagers": [
+                "dockerfile",
+                "docker-compose"
+            ],
             "enabled": false
         },
         {
-            "matchUpdateTypes": ["minor"],
+            "matchUpdateTypes": [
+                "minor"
+            ],
             "enabled": false
         },
         {
-            "matchUpdateTypes": ["major"],
+            "matchUpdateTypes": [
+                "major"
+            ],
             "enabled": false
         },
         {
-            "matchPackageNames": ["eslint"],
-            "matchFileNames": ["frontend/package.json"],
-            "matchUpdateTypes": ["patch"],
-            "labels": ["patch"],
+            "matchPackageNames": [
+                "eslint"
+            ],
+            "matchFileNames": [
+                "frontend/package.json"
+            ],
+            "matchUpdateTypes": [
+                "patch"
+            ],
+            "labels": [
+                "patch"
+            ],
             "automerge": false
         }
     ],
     "separateMinorPatch": true,
-    "labels": ["dependencies"],
+    "labels": [
+        "dependencies"
+    ],
     "constraints": {
         "composer": "2.7.7"
     },
     "dependencyDashboard": true,
     "rangeStrategy": "pin",
-    "baseBranches": ["test-2"],
+    "baseBranches": [
+        "test-2"
+    ],
     "vulnerabilityAlerts": {
-        "labels": ["security"],
-        "assignees": ["@jan.ruhfus", "@steve.falk"],
+        "labels": [
+            "security"
+        ],
+        "assignees": [
+            "@jan.ruhfus",
+            "@steve.falk"
+        ],
         "automerge": true
     },
     "branchPrefix": "renovate-"
