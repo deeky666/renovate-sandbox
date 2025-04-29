@@ -30,6 +30,11 @@
     "lockFileMaintenance": {
         "enabled": true
     },
+    "vulnerabilityAlerts": {
+        "labels": ["security"],
+        "assignees": ["@jan.ruhfus", "@steve.falk"],
+        "automerge": true
+    },
     "labels": ["dependencies"],
     "constraints": {
         "composer": "2.7.7"
