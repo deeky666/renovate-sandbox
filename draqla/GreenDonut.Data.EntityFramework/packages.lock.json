@@ -4,7 +4,7 @@
     "net8.0": {
       "GreenDonut.Data": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "UCWZAatk/61MZVzlD+tCW1y1waHvnkL91Ig88zaUUgZhtkruZ3IfUGPYujryMyCy4lZ1ngsF8wuwfmzADC7UOw==",
         "dependencies": {
@@ -14,7 +14,7 @@
       },
       "Microsoft.EntityFrameworkCore": {
         "type": "Direct",
-        "requested": "[7.0.15, )",
+        "requested": "[7.0.15, 7.0.15]",
         "resolved": "7.0.15",
         "contentHash": "grjnH94+hXgTqRFdfl88otvlqHTG1QEtlLm6ADI3vtZ1h+C8xNhvKRLNNw1RMD7CKADpoEEPNgqTXKCg+Ki8OQ==",
         "dependencies": {
