@@ -19,6 +19,7 @@
         },
         {
             "matchFileNames": ["frontend/package.json"],
+            "matchPackageNames": ["eslint"],
             "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/",
             "labels": ["patch"],
             "rangeStrategy": "pin",
