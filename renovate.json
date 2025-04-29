@@ -28,7 +28,7 @@
     },
     "dependencyDashboard": true,
     "rangeStrategy": "pin",
-    "baseBranches": ["test-1"],
+    "baseBranches": ["test-2"],
     "vulnerabilityAlerts": {
         "labels": ["security"],
         "assignees": ["@jan.ruhfus", "@steve.falk"],
