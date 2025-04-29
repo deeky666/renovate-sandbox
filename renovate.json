@@ -28,7 +28,7 @@
     ],
     "separateMinorPatch": true,
     "labels": ["dependencies"],
-    "rangeStrategy": "in-range-only",
+    "rangeStrategy": "pin",
     "constraints": {
         "composer": "2.7.7"
     },
