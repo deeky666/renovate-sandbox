@@ -34,7 +34,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apollo/client@npm:^3.7.16":
+"@apollo/client@npm:3.7.16":
   version: 3.7.16
   resolution: "@apollo/client@npm:3.7.16"
   dependencies:
@@ -7628,7 +7628,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-tag@npm:^2.10.1, graphql-tag@npm:^2.11.0, graphql-tag@npm:^2.12.6":
+"graphql-tag@npm:2.12.6, graphql-tag@npm:^2.10.1, graphql-tag@npm:^2.11.0, graphql-tag@npm:^2.12.6":
   version: 2.12.6
   resolution: "graphql-tag@npm:2.12.6"
   dependencies:
@@ -11670,7 +11670,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "scan@workspace:apps/scan"
   dependencies:
-    "@apollo/client": "npm:^3.7.16"
+    "@apollo/client": "npm:3.7.16"
     "@babel/core": "npm:7.25.2"
     "@expo/config-plugins": "npm:8.0.9"
     "@expo/react-native-action-sheet": "npm:4.0.1"
@@ -11705,7 +11705,7 @@ __metadata:
     expo-status-bar: "npm:1.12.1"
     expo-updates: "npm:0.25.25"
     graphql: "npm:16.7.1"
-    graphql-tag: "npm:^2.12.6"
+    graphql-tag: "npm:2.12.6"
     jwt-decode: "npm:3.1.2"
     moment: "npm:2.29.4"
     nativewind: "npm:4.1.10"
