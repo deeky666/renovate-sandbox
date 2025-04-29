@@ -22,7 +22,7 @@
             "matchPackageNames": ["eslint"],
             "rangeStrategy": "pin",
             "labels": ["patch"],
-            "automerge": false,
+            "automerge": false
         },
         {
             "matchFileNames": ["frontend/package.json"],
