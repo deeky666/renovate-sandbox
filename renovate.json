@@ -27,6 +27,9 @@
         }
     ],
     "separateMinorPatch": true,
+    "lockFileMaintenance": {
+        "enabled": true
+    },
     "labels": ["dependencies"],
     "constraints": {
         "composer": "2.7.7"
