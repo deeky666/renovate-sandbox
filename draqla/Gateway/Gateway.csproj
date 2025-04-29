@@ -10,16 +10,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="ChilliCream.Nitro" Version="14.0.0"/>
-        <PackageReference Include="GraphHealthChecks" Version="4.0.1" />
-        <PackageReference Include="HotChocolate.AspNetCore.CommandLine" Version="15.0.3"/>
-        <PackageReference Include="HotChocolate.PersistedOperations.InMemory" Version="15.0.3" />
-        <PackageReference Include="HotChocolate.Types.NodaTime" Version="15.0.3"/>
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
-        <PackageReference Include="prometheus-net.AspNetCore.HealthChecks" Version="8.2.1" />
-        <PackageReference Include="Serilog.AspNetCore" Version="8.0.0"/>
-        <PackageReference Include="Sentry.AspNetCore" Version="3.41.3"/>
-        <PackageReference Include="Sentry.Serilog" Version="3.41.3"/>
+        <PackageReference Include="ChilliCream.Nitro" Version="[14.0.0]"/>
+        <PackageReference Include="GraphHealthChecks" Version="[4.0.1]" />
+        <PackageReference Include="HotChocolate.AspNetCore.CommandLine" Version="[15.0.3]"/>
+        <PackageReference Include="HotChocolate.PersistedOperations.InMemory" Version="[15.0.3]" />
+        <PackageReference Include="HotChocolate.Types.NodaTime" Version="[15.0.3]"/>
+        <PackageReference Include="Newtonsoft.Json" Version="[13.0.3]"/>
+        <PackageReference Include="prometheus-net.AspNetCore.HealthChecks" Version="[8.2.1]" />
+        <PackageReference Include="Serilog.AspNetCore" Version="[8.0.0]"/>
+        <PackageReference Include="Sentry.AspNetCore" Version="[3.41.3]"/>
+        <PackageReference Include="Sentry.Serilog" Version="[3.41.3]"/>
     </ItemGroup>
 
     <ItemGroup>
