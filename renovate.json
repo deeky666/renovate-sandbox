@@ -20,14 +20,14 @@
         {
             "matchFileNames": ["frontend/package.json"],
             "matchPackageNames": ["eslint"],
-            "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/",
+            "matchUpdateTypes": ["patch"],
             "labels": ["patch"],
-            "rangeStrategy": "in-range-only",
             "automerge": false
         }
     ],
     "separateMinorPatch": true,
     "labels": ["dependencies"],
+    "rangeStrategy": "in-range-only",
     "constraints": {
         "composer": "2.7.7"
     },
