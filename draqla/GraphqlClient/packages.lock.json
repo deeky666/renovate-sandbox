@@ -4,7 +4,7 @@
     "net8.0": {
       "StrawberryShake.Server": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "M1xqm17uqZ48+UiNUZwejYxXg5SsS0mVMo5QuW59lom3QfnBbBPoocreOFdVgHF8KYLOB3Y4r0ryaAmaY+3V3Q==",
         "dependencies": {
@@ -15,7 +15,7 @@
       },
       "StrawberryShake.Transport.Http": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "6p7Xt4VBSwcSC0LJbvZafHHkO7Ya31PQ66t3BKq36qJg2j3+gwP3hMGK5sjXHlRs5z9NO/USxDB/Ac/vUvf0eQ==",
         "dependencies": {
@@ -28,7 +28,7 @@
       },
       "StrawberryShake.Transport.InMemory": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "0S8fYtXXjrfQj+vnzwVSuPjehO8YCV/VcT3yVIp1AgkinP0clpCfsoowxBNGKsQeq82HUxVjePgVxX12s1ScGg==",
         "dependencies": {
@@ -39,7 +39,7 @@
       },
       "StrawberryShake.Transport.WebSockets": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "FTwwsGSSak2qHHIU0ULfr7lSURY24A30ogwVZZwXhS+hxt+WZEIEWjWnLY2E28dc3G5X7GlgNK2aoh2mBJloww==",
         "dependencies": {

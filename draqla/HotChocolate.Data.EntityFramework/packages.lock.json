@@ -4,7 +4,7 @@
     "net8.0": {
       "GreenDonut": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "RqAKD20be6EY7AsMUpiJ58z7Ucc2U0psNOQoCeTQ1KhNjWFlYCGNI1VQidA2PcNleRdZ6CBlPIOLC4LxoyWUBQ==",
         "dependencies": {
@@ -15,7 +15,7 @@
       },
       "HotChocolate.Data": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "kD8jzn0am1DlVR4rIcP+LcydF1yCumnoQnpuIywnvhi7KcLWtbkLXA+uyuSGjMwQlSHrh82fTzpyLKjt6qL1mw==",
         "dependencies": {
@@ -29,7 +29,7 @@
       },
       "Microsoft.EntityFrameworkCore": {
         "type": "Direct",
-        "requested": "[7.0.15, )",
+        "requested": "[7.0.15, 7.0.15]",
         "resolved": "7.0.15",
         "contentHash": "grjnH94+hXgTqRFdfl88otvlqHTG1QEtlLm6ADI3vtZ1h+C8xNhvKRLNNw1RMD7CKADpoEEPNgqTXKCg+Ki8OQ==",
         "dependencies": {
@@ -319,8 +319,8 @@
       "greendonut.data.entityframework": {
         "type": "Project",
         "dependencies": {
-          "GreenDonut.Data": "[15.0.3, )",
-          "Microsoft.EntityFrameworkCore": "[7.0.15, )"
+          "GreenDonut.Data": "[15.0.3, 15.0.3]",
+          "Microsoft.EntityFrameworkCore": "[7.0.15, 7.0.15]"
         }
       }
     }
