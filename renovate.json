@@ -22,7 +22,8 @@
             "matchPackageNames": ["eslint"],
             "matchUpdateTypes": ["patch"],
             "labels": ["patch"],
-            "automerge": false
+            "automerge": false,
+            "enabled": true
         }
     ],
     "separateMinorPatch": true,
