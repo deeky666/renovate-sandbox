@@ -29,11 +29,5 @@
     },
     "ignorePaths": ["**"],
     "dependencyDashboard": true,
-    "baseBranches": ["test-3"],
-    "vulnerabilityAlerts": {
-        "labels": ["security"],
-        "assignees": ["@jan.ruhfus", "@steve.falk"],
-        "automerge": true
-    },
-    "branchPrefix": "renovate-"
+    "baseBranches": ["test-3"]
 }
