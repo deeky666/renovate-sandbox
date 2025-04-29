@@ -22,7 +22,7 @@
             "matchPackageNames": ["eslint"],
             "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/",
             "labels": ["patch"],
-            "rangeStrategy": "pin",
+            "rangeStrategy": "in-range-only",
             "automerge": false
         }
     ],
@@ -33,5 +33,5 @@
     },
     "ignoreDeps": ["*"],
     "dependencyDashboard": true,
-    "baseBranches": ["test-3"]
+    "baseBranches": ["test-4"]
 }
