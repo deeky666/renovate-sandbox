@@ -14,7 +14,6 @@
             "enabled": false
         },
         {
-            "matchPackageNames": ["eslint"],
             "matchFileNames": ["frontend/package.json"],
             "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/",
             "labels": ["patch"],
