@@ -4,7 +4,7 @@
     "net8.0": {
       "HotChocolate.AspNetCore": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "0rzAwdY6NoCO/MIJ9fb7V5KH6WEoBMfNow4riJDaxVi9aQ8gHVOImUNyGex1BJJdBEIkXp0lUNNWwmC777eoRQ==",
         "dependencies": {
@@ -18,7 +18,7 @@
       },
       "HotChocolate.Execution": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "jIoUssSOGE+d553SlmruDpOvVc+6fWG6f53bOKSb6SW670R00xiOjImZDfgE9Jo4uMbRgq9FV0pnO76s6nlspg==",
         "dependencies": {
@@ -34,7 +34,7 @@
       },
       "HotChocolate.Fusion": {
         "type": "Direct",
-        "requested": "[15.0.3, )",
+        "requested": "[15.0.3, 15.0.3]",
         "resolved": "15.0.3",
         "contentHash": "tADkietLEOiSwuN4IjzfDJOHm/T+hj/3s0DCX6nEx8oMC58K5wgi7NkNg8cOkrYfoAYo5/toQARksJ/BHRExtA==",
         "dependencies": {
@@ -50,7 +50,7 @@
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer": {
         "type": "Direct",
-        "requested": "[8.0.1, )",
+        "requested": "[8.0.1, 8.0.1]",
         "resolved": "8.0.1",
         "contentHash": "6xI3L6n8ucpUSkVn0Ax0MOtSJKIT6lrIkYGxIRda9LgmAjOFS3wPj2J2Y75dGUFkgTgpxPNq9K0oDCMPS2zBMg==",
         "dependencies": {
@@ -59,7 +59,7 @@
       },
       "Microsoft.AspNetCore.Http.Abstractions": {
         "type": "Direct",
-        "requested": "[2.3.0, )",
+        "requested": "[2.3.0, 2.3.0]",
         "resolved": "2.3.0",
         "contentHash": "39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
         "dependencies": {
@@ -69,22 +69,23 @@
       },
       "Microsoft.Extensions.Logging.Abstractions": {
         "type": "Direct",
-        "requested": "[8.0.2, )",
-        "resolved": "8.0.2",
-        "contentHash": "nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
+        "requested": "[9.0.1, 9.0.1]",
+        "resolved": "9.0.1",
+        "contentHash": "w2gUqXN/jNIuvqYwX3lbXagsizVNXYyt6LlF57+tMve4JYCEgCMMAjRce6uKcDASJgpMbErRT1PfHy2OhbkqEA==",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
+          "System.Diagnostics.DiagnosticSource": "9.0.1"
         }
       },
       "Newtonsoft.Json": {
         "type": "Direct",
-        "requested": "[13.0.3, )",
+        "requested": "[13.0.3, 13.0.3]",
         "resolved": "13.0.3",
         "contentHash": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ=="
       },
       "prometheus-net": {
         "type": "Direct",
-        "requested": "[8.2.1, )",
+        "requested": "[8.2.1, 8.2.1]",
         "resolved": "8.2.1",
         "contentHash": "3wVgdEPOCBF752s2xps5T+VH+c9mJK8S8GKEDg49084P6JZMumTZI5Te6aJ9MQpX0sx7om6JOnBpIi7ZBmmiDQ==",
         "dependencies": {
@@ -94,7 +95,7 @@
       },
       "prometheus-net.AspNetCore": {
         "type": "Direct",
-        "requested": "[8.2.1, )",
+        "requested": "[8.2.1, 8.2.1]",
         "resolved": "8.2.1",
         "contentHash": "/4TfTvbwIDqpaKTiWvEsjUywiHYF9zZvGZF5sK15avoDsUO/WPQbKsF8TiMaesuphdFQPK2z52P0zk6j26V0rQ==",
         "dependencies": {
@@ -485,8 +486,8 @@
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions": {
         "type": "Transitive",
-        "resolved": "8.0.2",
-        "contentHash": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg=="
+        "resolved": "9.0.1",
+        "contentHash": "Tr74eP0oQ3AyC24ch17N8PuEkrPbD0JqIfENCYqmgKYNOmL8wQKzLJu3ObxTUDrjnn4rHoR1qKa37/eQyHmCDA=="
       },
       "Microsoft.Extensions.Diagnostics": {
         "type": "Transitive",
@@ -611,8 +612,8 @@
       },
       "System.Diagnostics.DiagnosticSource": {
         "type": "Transitive",
-        "resolved": "8.0.0",
-        "contentHash": "c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ=="
+        "resolved": "9.0.1",
+        "contentHash": "yOcDWx4P/s1I83+7gQlgQLmhny2eNcU0cfo1NBWi+en4EAI38Jau+/neT85gUW6w1s7+FUJc2qNOmmwGLIREqA=="
       },
       "System.IdentityModel.Tokens.Jwt": {
         "type": "Transitive",

@@ -4,7 +4,7 @@
     "net8.0": {
       "Emgu.CV": {
         "type": "Direct",
-        "requested": "[4.8.1.5350, )",
+        "requested": "[4.8.1.5350, 4.8.1.5350]",
         "resolved": "4.8.1.5350",
         "contentHash": "1jOw9vu3z6uPEF3Z6ubDIYSrIYrv0h+ABINypNKEtKixMKU0ckUFsiX1AKXFE+kBz9vVFKXRVl94B1Mrf23tVA==",
         "dependencies": {
@@ -16,7 +16,7 @@
       },
       "Emgu.CV.runtime.ubuntu-x64": {
         "type": "Direct",
-        "requested": "[4.8.1.5350, )",
+        "requested": "[4.8.1.5350, 4.8.1.5350]",
         "resolved": "4.8.1.5350",
         "contentHash": "6MXFo8drF9D3bgxJqeXj5QEodOmg3d9oXMGkGAe4tbMiJaC6d3OZ2aqhIaiLhpmaR6DBAfn7I/6NLGkluH0+9w==",
         "dependencies": {
