@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc884aee0c8dadc4e3fcbe9f567919c3",
+    "content-hash": "68547d05adef64368b7055e367949d9b",
     "packages": [
         {
             "name": "async-aws/core",
@@ -3170,9 +3170,9 @@
             "extra": {
                 "class": "Metasyntactical\\Composer\\LicenseCheck\\LicenseCheckPlugin",
                 "bamarni-bin": {
-                    "target-directory": ".tools",
                     "bin-links": false,
-                    "forward-command": false
+                    "forward-command": false,
+                    "target-directory": ".tools"
                 }
             },
             "autoload": {
@@ -13012,7 +13012,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "8.3.*",
+        "php": "8.3.20",
         "ext-ctype": "*",
         "ext-dom": "*",
         "ext-iconv": "*",
