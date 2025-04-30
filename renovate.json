@@ -41,5 +41,6 @@
     },
     "rangeStrategy": "pin",
     "dependencyDashboard": true,
+    "dependencyDashboardOSVVulnerabilitySummary": "all",
     "baseBranches": ["test-5"]
 }
