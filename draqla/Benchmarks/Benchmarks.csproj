@@ -15,15 +15,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="BenchmarkDotNet" Version="[0.15.2]"/>
-        <PackageReference Include="BenchmarkDotNet.Annotations" Version="[0.15.2]"/>
+        <PackageReference Include="BenchmarkDotNet" Version="[0.15.4]"/>
+        <PackageReference Include="BenchmarkDotNet.Annotations" Version="[0.15.4]"/>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="[9.0.7]" NoWarn="RT0003"/>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[9.0.7]" NoWarn="RT0003"/>
-        <PackageReference Include="NodaTime" Version="[3.2.0]"/>
-        <PackageReference Include="NodaTime.Testing" Version="[3.2.0]"/>
-        <PackageReference Include="ReferenceTrimmer" Version="[3.3.11]" PrivateAssets="all"/>
+        <PackageReference Include="NodaTime" Version="[3.2.2]"/>
+        <PackageReference Include="NodaTime.Testing" Version="[3.2.2]"/>
+        <PackageReference Include="ReferenceTrimmer" Version="[3.3.12]" PrivateAssets="all"/>
         <PackageReference Include="xunit.v3.runner.common" Version="[2.0.2]"/>
-        <PackageReference Include="Meziantou.Analyzer" Version="[2.0.212]">
+        <PackageReference Include="Meziantou.Analyzer" Version="[2.0.222]">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
