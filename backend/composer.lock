@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84ac29e2d0276f80bf9ea98714d527c3",
+    "content-hash": "dff181c9a5025306f836d6277ea15295",
     "packages": [
         {
             "name": "async-aws/core",

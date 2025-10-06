@@ -28,7 +28,7 @@
         "firebase/php-jwt": "6.11.1",
         "giggsey/libphonenumber-for-php": "8.13.52",
         "gmostafa/php-graphql-client": "1.13",
-        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/guzzle": "7.8.1",
         "jms/serializer": "^3.30.0",
         "jms/serializer-bundle": "5.4.0",
         "knpuniversity/oauth2-client-bundle": "^2.18",
