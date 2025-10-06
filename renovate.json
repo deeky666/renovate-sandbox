@@ -46,5 +46,5 @@
     "baseBranches": ["test-6"],
     "minimumReleaseAge": "3 days",
     "branchPrefix": "renovate-",
-    "branchName": "{{{replace '/\\./g' depNameSanitized '_' }}}-{{newVersion}}"
+    "branchNameStrict": true
 }
