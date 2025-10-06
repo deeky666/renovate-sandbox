@@ -3,32 +3,33 @@
     "packageRules": [
         {
             "matchManagers": ["dockerfile", "docker-compose"],
-            "enabled": false
+            "dependencyDashboardApproval": true
         },
         {
             "matchUpdateTypes": ["minor"],
-            "enabled": false
+            "dependencyDashboardApproval": true
         },
         {
             "matchUpdateTypes": ["major"],
-            "enabled": false
+            "dependencyDashboardApproval": true
         },
         {
             "matchUpdateTypes": ["patch"],
-            "enabled": false
+            "automerge": true
         },
         {
-            "matchFileNames": ["frontend/package.json"],
-            "matchPackageNames": ["eslint"],
-            "matchUpdateTypes": ["patch"],
-            "labels": ["patch"],
-            "automerge": false,
-            "enabled": true
+            "description": "Wir müssen die dotnet-tools deaktivieren, da diese für Pinning-Probleme sorgen. Da DotNet Tools keine produktive Relevanz hat, haben wir uns darauf verständigt die Updates manuell nach Notwendigkeit durchzuführen.",
+            "matchManagers": ["nuget"],
+            "matchCurrentValue": "/^\\[[^,]+\\]$/",
+            "matchFileNames": ["**/dotnet-tools.json"],
+            "enabled": false
         }
     ],
     "separateMinorPatch": true,
     "lockFileMaintenance": {
-        "enabled": true
+        "enabled": true,
+        "automerge": true,
+        "schedule": ["before 1am every day"]
     },
     "vulnerabilityAlerts": {
         "labels": ["security"],
@@ -37,10 +38,13 @@
     },
     "labels": ["dependencies"],
     "constraints": {
-        "composer": "2.7.7"
+        "composer": "2.8.4"
     },
     "rangeStrategy": "pin",
     "dependencyDashboard": true,
     "dependencyDashboardOSVVulnerabilitySummary": "all",
-    "baseBranches": ["test-5"]
+    "baseBranches": ["test-6"],
+    "minimumReleaseAge": "3 days",
+    "branchPrefix": "renovate-",
+    "branchName": "{{{replace '/\\./g' depNameSanitized '_' }}}-{{newVersion}}"
 }
