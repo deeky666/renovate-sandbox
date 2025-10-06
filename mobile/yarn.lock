@@ -4467,7 +4467,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:~18.2.79":
+"@types/react@npm:18.2.79":
   version: 18.2.79
   resolution: "@types/react@npm:18.2.79"
   dependencies:
@@ -11231,12 +11231,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
+"react@npm:18.3.1":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
+  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
   languageName: node
   linkType: hard
 
@@ -11710,7 +11710,7 @@ __metadata:
     moment: "npm:2.29.4"
     nativewind: "npm:4.1.10"
     prettier: "npm:3.5.1"
-    react: "npm:18.2.0"
+    react: "npm:18.3.1"
     react-native: "npm:0.74.5"
     react-native-base64: "npm:0.2.1"
     react-native-device-info: "npm:14.0.4"
@@ -13374,7 +13374,7 @@ __metadata:
     "@react-native-async-storage/async-storage": "npm:1.23.1"
     "@react-native-community/netinfo": "npm:11.3.1"
     "@sentry/react-native": "npm:5.24.3"
-    "@types/react": "npm:~18.2.79"
+    "@types/react": "npm:18.2.79"
     babel-preset-expo: "npm:11.0.14"
     clsx: "npm:1.2.1"
     eslint-config-shared: "npm:1.0.0"
@@ -13400,7 +13400,7 @@ __metadata:
     nativewind: "npm:4.1.10"
     prettier: "npm:3.5.1"
     prettier-plugin-tailwindcss: "npm:0.2.8"
-    react: "npm:18.2.0"
+    react: "npm:18.3.1"
     react-native: "npm:0.74.5"
     react-native-gesture-handler: "npm:2.16.2"
     react-native-reanimated: "npm:3.10.1"
