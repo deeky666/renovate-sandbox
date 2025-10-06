@@ -15,7 +15,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="BenchmarkDotNet" Version="[0.15.2]"/>
+        <PackageReference Include="BenchmarkDotNet" Version="[0.15.4]"/>
         <PackageReference Include="BenchmarkDotNet.Annotations" Version="[0.15.2]"/>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="[9.0.7]" NoWarn="RT0003"/>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[9.0.7]" NoWarn="RT0003"/>
