@@ -1,5 +1,5 @@
 {
-    "extends": ["config:base", "mergeConfidence:all-badges"],
+    "extends": ["config:base", "mergeConfidence:all-badges", "security:openssf-scorecard"],
     "packageRules": [
         {
             "matchManagers": ["dockerfile", "docker-compose"],
