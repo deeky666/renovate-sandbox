@@ -1,5 +1,5 @@
 {
-    "extends": ["config:base"],
+    "extends": ["config:base", "mergeConfidence:all-badges"],
     "packageRules": [
         {
             "matchManagers": ["dockerfile", "docker-compose"],
