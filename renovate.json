@@ -43,7 +43,8 @@
     },
     "labels": ["dependencies"],
     "constraints": {
-        "composer": "2.8.4"
+        "composer": "2.8.4",
+        "@types/node": "node"
     },
     "rangeStrategy": "pin",
     "dependencyDashboard": true,
