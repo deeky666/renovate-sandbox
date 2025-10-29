@@ -2283,9 +2283,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gorhom/bottom-sheet@npm:4.4.7":
-  version: 4.4.7
-  resolution: "@gorhom/bottom-sheet@npm:4.4.7"
+"@gorhom/bottom-sheet@npm:4.4.8":
+  version: 4.4.8
+  resolution: "@gorhom/bottom-sheet@npm:4.4.8"
   dependencies:
     "@gorhom/portal": "npm:1.0.14"
     invariant: "npm:^2.2.4"
@@ -2301,7 +2301,7 @@ __metadata:
       optional: true
     "@types/react-native":
       optional: true
-  checksum: 10c0/83f6d6079126082a3adee0746879ecd27c2e4e4feee48f42a65e44137120b4bcba309aff91c1dcaabb0a93107fed4ef9ad5bf11e23547dde0e4d7edbf8170289
+  checksum: 10c0/ab2ef56313191a40bf3cd3ee38053ed7180b6a802705724529eb7a766d444d02be8b1b498839852ff2ccdabc6bd353a1fefc37adb7d518d38a1cb9f8ba7400b5
   languageName: node
   linkType: hard
 
@@ -13370,7 +13370,7 @@ __metadata:
     "@babel/core": "npm:7.25.2"
     "@expo/config-plugins": "npm:8.0.9"
     "@expo/vector-icons": "npm:14.0.3"
-    "@gorhom/bottom-sheet": "npm:4.4.7"
+    "@gorhom/bottom-sheet": "npm:4.4.8"
     "@react-native-async-storage/async-storage": "npm:1.23.1"
     "@react-native-community/netinfo": "npm:11.3.1"
     "@sentry/react-native": "npm:5.24.3"
