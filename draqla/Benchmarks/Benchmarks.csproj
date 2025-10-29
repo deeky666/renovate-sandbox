@@ -17,8 +17,8 @@
     <ItemGroup>
         <PackageReference Include="BenchmarkDotNet" Version="[0.15.2]"/>
         <PackageReference Include="BenchmarkDotNet.Annotations" Version="[0.15.2]"/>
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="[9.0.7]" NoWarn="RT0003"/>
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[9.0.7]" NoWarn="RT0003"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="[9.0.10]" NoWarn="RT0003"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="[9.0.10]" NoWarn="RT0003"/>
         <PackageReference Include="NodaTime" Version="[3.2.0]"/>
         <PackageReference Include="NodaTime.Testing" Version="[3.2.0]"/>
         <PackageReference Include="ReferenceTrimmer" Version="[3.3.11]" PrivateAssets="all"/>

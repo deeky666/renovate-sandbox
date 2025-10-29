@@ -10,7 +10,7 @@
   <ItemGroup>
     <PackageReference Include="HotChocolate.Data" Version="[15.0.3]" />
     <PackageReference Include="GreenDonut" Version="[15.0.3]" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="[7.0.15]" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="[7.0.20]" />
   </ItemGroup>
 
   <ItemGroup>
