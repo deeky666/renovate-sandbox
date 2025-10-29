@@ -19,7 +19,8 @@
         },
         {
             "matchUpdateTypes": ["patch"],
-            "automerge": true
+            "automerge": true,
+            "minimumReleaseAge": "7 days"
         },
         {
             "description": "Wir müssen die dotnet-tools deaktivieren, da diese für Pinning-Probleme sorgen. Da DotNet Tools keine produktive Relevanz hat, haben wir uns darauf verständigt die Updates manuell nach Notwendigkeit durchzuführen.",
@@ -48,7 +49,7 @@
     "dependencyDashboard": true,
     "dependencyDashboardOSVVulnerabilitySummary": "all",
     "baseBranches": ["test-6"],
-    "minimumReleaseAge": "3 days",
+    "minimumReleaseAge": "30 days",
     "branchPrefix": "renovate-",
     "branchNameStrict": true
 }
