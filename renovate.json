@@ -30,6 +30,12 @@
             "enabled": false
         }
     ],
+    "docker": {
+        "pinDigests": true
+    },
+    "docker-compose": {
+        "pinDigests": true
+    },
     "separateMinorPatch": true,
     "lockFileMaintenance": {
         "enabled": true,
