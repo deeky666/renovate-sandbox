@@ -96,7 +96,7 @@
     "@types/gtag.js": "^0.0.20",
     "@types/inputmask": "5.0.7",
     "@types/js-cookie": "^3.0.6",
-    "@types/node": "^22.5.4",
+    "@types/node": "22.5.4",
     "@types/papaparse": "^5.3.14",
     "@types/qrcode": "^1.5.5",
     "@types/resize-observer-browser": "^0.1.11",
@@ -129,6 +129,9 @@
     "typescript": "~5.5",
     "typescript-eslint": "^8.6.0",
     "vite-plugin-commonjs": "^0.10.3"
+  },
+  "engines": {
+    "node": "22.5.4"
   },
   "private": true,
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
