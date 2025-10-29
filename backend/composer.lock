@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84ac29e2d0276f80bf9ea98714d527c3",
+    "content-hash": "da65ccb362e04cdcc3524df9104ab74c",
     "packages": [
         {
             "name": "async-aws/core",
@@ -428,6 +428,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "time": "2022-05-20T20:07:39+00:00"
         },
         {
