@@ -19,7 +19,7 @@
     "@expo/vector-icons": "14.0.3",
     "@gorhom/bottom-sheet": "4.4.7",
     "@react-native-async-storage/async-storage": "1.23.1",
-    "@react-native-community/netinfo": "11.3.1",
+    "@react-native-community/netinfo": "11.3.3",
     "@sentry/react-native": "5.24.3",
     "@types/react": "~18.2.79",
     "clsx": "1.2.1",

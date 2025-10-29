@@ -3595,12 +3595,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/netinfo@npm:11.3.1":
-  version: 11.3.1
-  resolution: "@react-native-community/netinfo@npm:11.3.1"
+"@react-native-community/netinfo@npm:11.3.3":
+  version: 11.3.3
+  resolution: "@react-native-community/netinfo@npm:11.3.3"
   peerDependencies:
     react-native: ">=0.59"
-  checksum: 10c0/a74348321b262e6a99d01e5fa71473b34c12319845139cdf8e95fcd474b4022f9a3f50e506acecd7538ca44afbd75df09fce048184b1ea322edf45ed21ab134a
+  checksum: 10c0/286dbdf857946c4da5703fd73c76fa6c018fa895fbff83699386d8baebc359848401e2dff643198f7a37503c65a9d9a49b1c8e57b571afc8df8b0bb484a5461a
   languageName: node
   linkType: hard
 
@@ -13372,7 +13372,7 @@ __metadata:
     "@expo/vector-icons": "npm:14.0.3"
     "@gorhom/bottom-sheet": "npm:4.4.7"
     "@react-native-async-storage/async-storage": "npm:1.23.1"
-    "@react-native-community/netinfo": "npm:11.3.1"
+    "@react-native-community/netinfo": "npm:11.3.3"
     "@sentry/react-native": "npm:5.24.3"
     "@types/react": "npm:~18.2.79"
     babel-preset-expo: "npm:11.0.14"
