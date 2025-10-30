@@ -23,7 +23,7 @@
             "minimumReleaseAge": "7 days"
         },
         {
-            "matchDatasoruces": ["docker"],
+            "matchDatasources": ["docker"],
             "matchDepNames": ["php"],
             "minimumReleaseAge": null
         },
