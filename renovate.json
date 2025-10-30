@@ -32,6 +32,12 @@
             "minimumGroupSize": 2
         },
         {
+            "matchUpdateTypes": ["minor", "major"],
+            "matchDepNames": ["php"],
+            "matchNewValue": "!/^\d+\\.\d+\\.0/",
+            "enabled": false
+        },
+        {
             "description": "Wir müssen die dotnet-tools deaktivieren, da diese für Pinning-Probleme sorgen. Da DotNet Tools keine produktive Relevanz hat, haben wir uns darauf verständigt die Updates manuell nach Notwendigkeit durchzuführen.",
             "matchManagers": ["nuget"],
             "matchCurrentValue": "/^\\[[^,]+\\]$/",
