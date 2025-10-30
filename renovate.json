@@ -30,6 +30,7 @@
         },
         {
             "matchDepNames": ["php"],
+            "matchUpdateTypes": ["patch"],
             "minimumGroupSize": 2
         },
         {
