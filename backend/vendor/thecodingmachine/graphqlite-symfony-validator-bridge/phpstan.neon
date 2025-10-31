@@ -1,0 +1,13 @@
+parameters:
+    level: 7
+
+    paths:
+        - src
+
+    ignoreErrors:
+
+    excludePaths:
+            - vendor
+
+#includes:
+#    - vendor/thecodingmachine/phpstan-strict-rules/phpstan-strict-rules.neon
