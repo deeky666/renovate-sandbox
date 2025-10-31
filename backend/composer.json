@@ -26,7 +26,7 @@
         "dompdf/dompdf": "2.0.8",
         "fakerphp/faker": "1.23.1",
         "firebase/php-jwt": "6.11.1",
-        "giggsey/libphonenumber-for-php": "8.13.52",
+        "giggsey/libphonenumber-for-php": "8.13.55",
         "gmostafa/php-graphql-client": "1.13",
         "guzzlehttp/guzzle": "7.8.1",
         "jms/serializer": "3.30.0",
