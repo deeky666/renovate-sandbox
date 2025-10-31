@@ -1,0 +1,6 @@
+services:
+	- factory: JiriPudil\SealedClasses\SealedClassAllowedSubTypesClassReflectionExtension
+	  tags: [phpstan.broker.allowedSubTypesClassReflectionExtension]
+
+rules:
+	- JiriPudil\SealedClasses\SealedClassRule

@@ -1,0 +1,7 @@
+vendor/
+.env
+*.http
+.phpunit.result.cache
+.phpdoc/
+index.php
+.idea/

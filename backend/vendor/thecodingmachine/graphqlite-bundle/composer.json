@@ -1,0 +1,72 @@
+{
+  "name" : "thecodingmachine/graphqlite-bundle",
+  "description" : "A Symfony bundle for thecodingmachine/graphqlite.",
+  "keywords" : [
+    "graphql",
+    "bundle",
+    "symfony"
+  ],
+  "homepage" : "https://github.com/thecodingmachine/graphqlite",
+  "type" : "symfony-bundle",
+  "license" : "MIT",
+  "authors" : [{
+    "name" : "David Négrier",
+    "email" : "d.negrier@thecodingmachine.com",
+    "homepage" : "http://mouf-php.com"
+  }
+  ],
+  "require" : {
+    "php" : ">=8.1",
+    "ext-json": "*",
+    "thecodingmachine/graphqlite" : "^8",
+    "thecodingmachine/graphqlite-symfony-validator-bridge": "^7.1.1",
+    "symfony/config": "^6.4 || ^7",
+    "symfony/console": "^6.4 || ^7",
+    "symfony/framework-bundle": "^6.4 || ^7",
+    "symfony/validator": "^6.4 || ^7",
+    "symfony/translation": "^6.4 || ^7",
+    "symfony/psr-http-message-bridge": "^2.0 || ^7.0",
+    "nyholm/psr7": "^1.1",
+    "laminas/laminas-diactoros": "^2.2.2 || ^3",
+    "overblog/graphiql-bundle": "^0.2 || ^0.3 || ^1",
+    "thecodingmachine/cache-utils": "^1"
+  },
+  "require-dev": {
+    "symfony/security-bundle": "^6.4 || ^7",
+    "symfony/yaml": "^6.4 || ^7",
+    "beberlei/porpaginas": "^1.2 || ^2.0",
+    "symfony/phpunit-bridge": "^6.4 || ^7",
+    "phpstan/phpstan": "^2",
+    "phpstan/phpstan-symfony": "^2.0",
+    "composer/package-versions-deprecated": "^1.8",
+    "composer/semver": "^3.4"
+  },
+  "conflict": {
+    "symfony/event-dispatcher": "<4.3",
+    "symfony/security-core": "<4.3",
+    "symfony/routing": "<4.3",
+    "phpdocumentor/type-resolver": "<1.4"
+  },
+  "scripts": {
+    "phpstan": "phpstan analyse -c phpstan.neon --no-progress"
+  },
+  "suggest": {
+    "symfony/security-bundle": "To use #[Logged] or #[Right] attributes"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "TheCodingMachine\\GraphQLite\\Bundle\\" : "src"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "TheCodingMachine\\GraphQLite\\Bundle\\Tests\\" : "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "6.0.x-dev"
+    }
+  },
+  "prefer-stable": true
+}

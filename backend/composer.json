@@ -35,7 +35,7 @@
         "league/flysystem": "3.28.0",
         "league/flysystem-bundle": "3.3.5",
         "league/flysystem-sftp-v3": "3.28.0",
-        "league/oauth2-client": "2.8.0",
+        "league/oauth2-client": "2.8.1",
         "metasyntactical/composer-plugin-license-check": "2.2.2",
         "nadar/quill-delta-parser": "3.4.2",
         "phpdocumentor/reflection-docblock": "5.4.1",
