@@ -31,7 +31,7 @@
         "guzzlehttp/guzzle": "7.8.1",
         "jms/serializer": "3.30.0",
         "jms/serializer-bundle": "5.4.0",
-        "knpuniversity/oauth2-client-bundle": "2.18.3",
+        "knpuniversity/oauth2-client-bundle": "2.18.4",
         "league/flysystem": "3.28.0",
         "league/flysystem-bundle": "3.3.5",
         "league/flysystem-sftp-v3": "3.28.0",
