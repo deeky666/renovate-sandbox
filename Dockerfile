@@ -6,4 +6,4 @@ FROM php:8.3.21-fpm-alpine@sha256:d2170b0f8da574062b289566a05f25ab57173315a356c9
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV APP_ENV prod
 ENV APP_DEBUG 0
-COPY --from=composer:2.8.12 --chmod=755 /usr/bin/composer /usr/local/bin/composer
+COPY --from=composer:2.8.5 --chmod=755 /usr/bin/composer /usr/local/bin/composer
