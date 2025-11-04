@@ -44,7 +44,7 @@
         "psr/container": "2.0.2",
         "ramsey/uuid": "4.7.6",
         "ramsey/uuid-doctrine": "2.0.0",
-        "sentry/sentry": "4.8.0",
+        "sentry/sentry": "4.8.1",
         "sentry/sentry-symfony": "5.0.0",
         "seven.io/api": "6.0.0",
         "symfony/amazon-mailer": "7.2.0",
