@@ -45,7 +45,7 @@
         "ramsey/uuid": "4.7.6",
         "ramsey/uuid-doctrine": "2.0.0",
         "sentry/sentry": "4.8.0",
-        "sentry/sentry-symfony": "5.0.0",
+        "sentry/sentry-symfony": "5.0.1",
         "seven.io/api": "6.0.0",
         "symfony/amazon-mailer": "7.2.0",
         "symfony/cache-contracts": "3.5.1",
