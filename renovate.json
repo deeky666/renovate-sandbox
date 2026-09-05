@@ -42,7 +42,7 @@
     },
     "labels": ["dependencies"],
     "constraints": {
-        "composer": "2.8.4"
+        "composer": "2.8.12"
     },
     "rangeStrategy": "pin",
     "dependencyDashboard": true,
