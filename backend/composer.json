@@ -40,7 +40,7 @@
         "nadar/quill-delta-parser": "3.4.2",
         "phpdocumentor/reflection-docblock": "5.4.1",
         "phpdocumentor/type-resolver": "1.8.2",
-        "picqer/php-barcode-generator": "2.4.0",
+        "picqer/php-barcode-generator": "2.4.2",
         "psr/container": "2.0.2",
         "ramsey/uuid": "4.7.6",
         "ramsey/uuid-doctrine": "2.0.0",
