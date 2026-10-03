@@ -2,7 +2,7 @@ FROM node:22.5.1-alpine3.20@sha256:9fcc1a6da2b9eee38638df75c5f826e06e9c79f6a0f97
 WORKDIR /app
 RUN apk add --no-cache gzip
 
-FROM php:8.3.21-fpm-alpine@sha256:d2170b0f8da574062b289566a05f25ab57173315a356c9f7519b5e444ae96dac AS php
+FROM php:8.3.33-fpm-alpine@sha256:62f4c401dc970c352223dd018e4f2c9d1c480e07f67351cd31bec2d1f8a8fb42 AS php
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV APP_ENV prod
 ENV APP_DEBUG 0
