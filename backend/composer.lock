@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da65ccb362e04cdcc3524df9104ab74c",
+    "content-hash": "083bffcc1ff3522dae8792806ccfbeed",
     "packages": [
         {
             "name": "async-aws/core",
@@ -9653,16 +9653,16 @@
         },
         {
             "name": "thecodingmachine/graphqlite-bundle",
-            "version": "v7.1.0",
+            "version": "v7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/graphqlite-bundle.git",
-                "reference": "58cc91a6942cd9f9aca19752e13747e2b3ca2f32"
+                "reference": "e3d70f0a373190b3862e1467d145fb42a880c600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/graphqlite-bundle/zipball/58cc91a6942cd9f9aca19752e13747e2b3ca2f32",
-                "reference": "58cc91a6942cd9f9aca19752e13747e2b3ca2f32",
+                "url": "https://api.github.com/repos/thecodingmachine/graphqlite-bundle/zipball/e3d70f0a373190b3862e1467d145fb42a880c600",
+                "reference": "e3d70f0a373190b3862e1467d145fb42a880c600",
                 "shasum": ""
             },
             "require": {
@@ -9731,9 +9731,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thecodingmachine/graphqlite-bundle/issues",
-                "source": "https://github.com/thecodingmachine/graphqlite-bundle/tree/v7.1.0"
+                "source": "https://github.com/thecodingmachine/graphqlite-bundle/tree/v7.1.2"
             },
-            "time": "2025-01-06T19:16:43+00:00"
+            "time": "2025-07-08T05:41:33+00:00"
         },
         {
             "name": "thecodingmachine/graphqlite-symfony-validator-bridge",
@@ -13209,7 +13209,7 @@
         "ext-ctype": "*",
         "ext-dom": "*",
         "ext-iconv": "*",
-        "ext-imagick": "*",
+        "ext-imagick": "3.7.0",
         "ext-intl": "*",
         "ext-json": "*",
         "ext-libxml": "*",

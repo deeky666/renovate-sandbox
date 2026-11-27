@@ -83,7 +83,7 @@
         "symfony/var-dumper": "7.2.*",
         "symfony/yaml": "7.2.3",
         "thecodingmachine/graphqlite": "8.0.0",
-        "thecodingmachine/graphqlite-bundle": "7.1.0",
+        "thecodingmachine/graphqlite-bundle": "7.1.2",
         "tilleuls/url-signer-bundle": "2.2.1",
         "twig/extra-bundle": "3.10.0",
         "twig/intl-extra": "3.10.0",
